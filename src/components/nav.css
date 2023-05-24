@@ -1,5 +1,6 @@
 .nav{
     /* background-color: #8879ec; */
+    margin-top: 1rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -36,14 +37,25 @@ span{
     padding: 7px;
     border-radius: .9rem;
 }
+span:hover{
+    background-color: #fff;
+}
+span:active{
+    background-color: #d88e8e;
+}
 svg{
     padding:0 .51rem;
     color: #c50532;
 }
+a:active{
+    color: #fcf8f8;
+}
 a {
     margin-left: 4rem;
     font-weight: 500;
-    color: #198069;
+    color: #c50532;
+    font-weight: 700;
+    /* color: #198069; */
     text-decoration: inherit;
     align-items: center;
     justify-items: space-between;

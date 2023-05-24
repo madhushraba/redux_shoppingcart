@@ -14,11 +14,13 @@ console.log(cartitems);
       <div className="logo">iStore</div>
       <div className="navwrap">
         <Link to="/">HOME</Link>
-        <Link to="/cart">CART</Link>
+        <Link to="/cart">
+          {/* CART */}
         <span>
           <BsFillCartPlusFill />
           {cartitems.length}   {/* cart val:0 */}
         </span>
+        </Link>
       </div>
     </div>
   );
