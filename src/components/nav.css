@@ -1,0 +1,27 @@
+.nav{
+    background-color: #8879ec;
+}
+.navwrap{
+    display: flex;
+    justify-content: space-between;
+}
+span{
+    color: #8b0625;
+    align-items: center;
+    justify-content: center;
+    border: 2.3px solid #c50532;
+    padding: 7px;
+    border-radius: .9rem;
+}
+svg{
+    padding:0 .51rem;
+    color: #c50532;
+}
+a {
+    margin-left: 4rem;
+    font-weight: 500;
+    color: #198069;
+    text-decoration: inherit;
+    align-items: center;
+    justify-items: space-between;
+  }
