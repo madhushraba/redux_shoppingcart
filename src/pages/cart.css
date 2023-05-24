@@ -20,6 +20,17 @@ body{
     background-color: #ca8e8e;
     padding: 1rem ;
     margin: 2rem;
+    color: #fff;
     /* float: right; */
     
+}
+/* .btnn{
+    display: flex;
+} */
+.btnrem{
+    /* float: right; */
+    margin:0 1rem;
+    text-transform: uppercase;
+    background-color: #eb1d54;
+    color: #fff;
 }
