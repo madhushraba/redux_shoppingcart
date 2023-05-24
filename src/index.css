@@ -1,13 +1,23 @@
 
 *{
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-background-color: #ecc9f3;
+/* background-color: #ecc9f3; */
 }
 
-
+h3{
+  color: #9e0625;
+  text-align: center;
+/* text-decoration: dotted; */
+}
+h3:hover{
+  /* font-size: .3rem; */
+  color: rgb(18, 91, 91);
+  transition: .2s ease;
+}
 .card{
-  border: 1px solid rgb(193, 37, 221);
-  background-color: #f3d6f8;
+  border: 1px solid rgb(223, 164, 233);
+  background-color: #c4e1cf;
+  border-radius: 1rem;
   /* width: 14rem;
   height: 16rem; */
   margin: 10px;

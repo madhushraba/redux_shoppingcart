@@ -1,0 +1,25 @@
+.cartwrapp{
+    /* border: 2px solid #dd0d0d; */
+    margin:0 2rem;
+    padding: 1rem;
+    /* ba */
+}
+body{
+    background-color: #ecbcd4;
+}
+.cartcard{
+    border: 1px solid #17dda2;
+    display: flex;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: #c4e1cf;
+    border-radius: 1rem;
+    justify-content: space-between;
+}
+.btn{
+    background-color: #ca8e8e;
+    padding: 1rem ;
+    margin: 2rem;
+    /* float: right; */
+    
+}

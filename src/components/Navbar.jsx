@@ -3,15 +3,21 @@ import { Link } from "react-router-dom";
 import { BsFillCartPlusFill } from "react-icons/bs";
 
 import "./nav.css";
+import { useSelector } from "react-redux";
 const Navbar = () => {
+const cartitems=useSelector((state)=>state.cart)
+console.log(cartitems);
+
+
   return (
     <div className="nav">
+      <div className="logo">IKart</div>
       <div className="navwrap">
         <Link to="/">HOME</Link>
         <Link to="/cart">CART</Link>
         <span>
-          <BsFillCartPlusFill />0
-          {/* cart val:0 */}
+          <BsFillCartPlusFill />
+          {cartitems.length}   {/* cart val:0 */}
         </span>
       </div>
     </div>

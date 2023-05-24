@@ -4,9 +4,9 @@ import Products from '../components/Products'
 const Home = () => {
   return (
 <div>
-  <h2>rtk store madhu</h2>
+  <h3>Choose from 12000+ styles handpicked specially for yoo...</h3>
   <section>
-    <h3>products 4u qt</h3>
+   
     <Products/>
   </section>
 </div>  )
