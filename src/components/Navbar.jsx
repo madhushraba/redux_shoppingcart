@@ -11,9 +11,9 @@ console.log(cartitems);
 
   return (
     <div className="nav">
-      <div className="logo">iStore</div>
+//       <div className="logo">iStore</div>
       <div className="navwrap">
-        <Link to="/">HOME</Link>
+        <Link to="/">iStore</Link>
         <Link to="/cart">
           {/* CART */}
         <span>
