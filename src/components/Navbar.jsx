@@ -11,7 +11,6 @@ console.log(cartitems);
 
   return (
     <div className="nav">
-//       <div className="logo">iStore</div>
       <div className="navwrap">
         <Link to="/">iStore</Link>
         <Link to="/cart">
